@@ -1,18 +1,18 @@
 {
     "Thing1": {
-        "Title":"Dogs",
+        "title":"Dogs",
         "subTitle":"Top 1 lovely creature in the world",
         "description":"What is the most lovely creature in the world? Absolutely not human. Maybe cats, maybe rabbits or hamsters. But for me it's dogs. The only one problem left is that when can I have a fluffy doggy?",
         "picture":"dog.jpg"
     },
     "Thing2": {
-        "Title":"Illustration",
+        "title":"Illustration",
         "subTitle":"Great way to spend spare time",
         "description":"Even though not making money from it, I stil draw illustrations regularly. Sometimes for practice, and sometimes just want to bring my imagination on paper... well, actually on screen.",
         "picture":"illustration.jpg"
     },
     "Thing3": {
-        "Title":"Mincraft",
+        "title":"Mincraft",
         "subTitle":"Everyone loves playing games",
         "description":"To me, the most exciting part of Minecraft is to build whatever I like and make it a cosy place - without costing any money in the real world. This texture pack is also my favourite, and it's called Mizuno's 16 Craft.",
         "picture":"minecraft.jpg"
