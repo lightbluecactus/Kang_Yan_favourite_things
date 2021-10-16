@@ -6,15 +6,13 @@ Users will click on one of the buttons and see an individual thing shown on the 
 
 ## Functions
 
-* fetch data from data.json, then convert data to JavaScript object
+* add data attribute to each button
 
-* copy elements in template tag, update its content with data from data.json, and append the content to content area.
+* use JavaScript AJAX to fetch data from each favourite thing, an dadd them into HTML
 
 * add event listener to each button to control which thing will be shown
 
-## Coding tools
-
-* JSON data file
+## Coding methods
 
 * SASS and compile SASS in Gulp
 
