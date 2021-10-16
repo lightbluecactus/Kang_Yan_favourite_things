@@ -5,7 +5,7 @@ Introduces some of my favourites - have fun when reading them!
 Need a browser and a local server to open index.html.
 
 ## Usage
-download WAMP/MAMP/LAMP depend on your system, dowonload this project or <kbd>git clone</kbd> to your server directory, run localhost, open browser and go to localhost/favourite_things. Then you should see the web page.
+download WAMP/MAMP/LAMP depend on your system, dowonload this project or `git clone` to your server directory, run localhost, open browser and go to localhost/favourite_things. Then you should see the web page.
 
 ## Play with the Page
 Click on buttons on the left of the page, and see 3 different things with image and description.
@@ -13,7 +13,7 @@ Click on buttons on the left of the page, and see 3 different things with image 
 ## License
 MIT License
 
-Copyright (c) 2020 lightbluecactus(Yan Kang)
+Copyright (c) 2021 lightbluecactus(Yan Kang)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
