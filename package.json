@@ -1,0 +1,34 @@
+{
+  "name": "favourite_things",
+  "version": "1.0.0",
+  "description": "learning how to use gulp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "YK",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.2"
+  },
+  "dependencies": {
+    "glob-parent": "^6.0.2",
+    "imagemin": "^8.0.1",
+    "semver-regex": "^4.0.2",
+    "set-value": "^4.1.0",
+    "trim-newlines": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightbluecactus/favourite_things.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lightbluecactus/favourite_things/issues"
+  },
+  "homepage": "https://github.com/lightbluecactus/favourite_things#readme"
+}

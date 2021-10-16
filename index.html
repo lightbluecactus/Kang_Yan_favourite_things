@@ -4,11 +4,38 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<title>My Favourite Things</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		
 	</head>
 	<body>
-		<!-- Content Goes Here -->
+		<h1>Favourite Things</h1>
+		<main id="container">
+			<section class="btnCon">
+				<div class="btn" data-key="Thing1">1</div>
+				<div class="btn" data-key="Thing2">2</div>
+				<div class="btn" data-key="Thing3">3</div>
+			</section>
+
+			<section class="contentCon"></section>
+
+			<template id="contentTemp">
+				<section class="contentPanel">
+					<div class="thing_img">
+						<img src="" alt=""> <!-- this is containers[0]-->
+					</div>
+				
+					<h2 class="thing_title">slug</h2> <!-- this is containers[1]-->
+					<h3 class="thing_subTitle">slug</h3> <!-- this is containers[2]-->
+					<p class="thing_desc"> <!-- this is containers[3]-->
+						slug
+					</p>
+				</section>
+			</template>
+		</main>
+
+		
 		<script src="js/main.js" type="module" defer></script>
 	</body>
 
