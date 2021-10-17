@@ -6,14 +6,20 @@ Users will click on one of the buttons and see an individual thing shown on the 
 
 ## Functions
 
-* add data attribute to each button
+* add data attribute to each button in HTML
 
-* use JavaScript AJAX to fetch data from each favourite thing, an dadd them into HTML
+* use JSON file to store data
+
+* fetch data from JSON and concert the data to a JavaScript object
+
+* make the data a global variation, and add them into HTML
 
 * add event listener to each button to control which thing will be shown
 
 ## Coding methods
 
 * SASS and compile SASS in Gulp
+
+* JSON data file
 
 * fetch API in JavaScript

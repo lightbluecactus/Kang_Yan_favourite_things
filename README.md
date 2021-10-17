@@ -10,6 +10,9 @@ download WAMP/MAMP/LAMP depend on your system, dowonload this project or `git cl
 ## Play with the Page
 Click on buttons on the left of the page, and see 3 different things with image and description.
 
+## Notice
+All images are original. Do not use or distribute.
+
 ## License
 MIT License
 
