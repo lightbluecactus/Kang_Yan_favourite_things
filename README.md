@@ -13,6 +13,9 @@ Click on buttons on the left of the page, and see 3 different things with image 
 ## Notice
 All images are original. Do not use or distribute.
 
+## TO DO LIST
+* merge branch "cleaningUp" later because it's after due date
+
 ## License
 MIT License
 
