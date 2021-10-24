@@ -5,6 +5,7 @@
 @import "modules/queries";
 
 @import "modules/defaults";
+@import "modules/container";
 
 body {
     height: 100vh;
@@ -17,61 +18,4 @@ h1 {
     font-family: "Alegreya", "Times New Roman", serif;
     letter-spacing: 2px;
 }
-
-#container {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    margin-top: 40px;
-}
-
-.btnCon {
-    margin-left: 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-}
-
-.btn {
-    padding: 10px 10px;
-    background-color: #6f84b7;
-    color: #fff;
-    text-align: center;
-    margin-top: 7vh;
-    cursor: pointer;
-    transition: .5s all ease-out;
-}
-
-.btn:hover {
-    background-color: #96ade4;
-}
-
-.contentCon {
-    margin-left: 10vw;
-    width: 60vw;
-}
-
-.contentCon img {
-    max-width: 60vw;
-    margin-bottom: 30px;
-}
-
-.contentCon h2 {
-    font-size: 24px;
-    font-family: "Alegreya", "Times New Roman", serif;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-.contentCon h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.contentCon p {
-    line-height: 24px;
-    color: #777;
-    margin-bottom: 50px;
-}
-
 

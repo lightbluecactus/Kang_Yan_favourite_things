@@ -1,47 +1,35 @@
+import { getData } from "./components/TheData.js";
+
 (()=>{
 
 	const	btn = document.querySelectorAll(".btn");
 	let thingList;
 
-
-	function getData() {
-		fetch("./data.json")
-		.then(res => res.json())
-		.then(data => {
-			
-			thingList = data;
-			return thingList;
-			
-		})
-		.catch(error => console.error(error));
-	}
-
 	function buildData(data) {
-		let thingList = Object(data);
+		thingList = data;
+		return thingList;
 	}
 
 	function showData(event) {
 
 		let	key = event.target.dataset.list;
 		console.log(key);
+		console.log(thingList);		
 
-		buildData();
-		console.log(thingList);
-		
-
-		let thingTitle = document.querySelector("h2"),
-			thingImg = document.querySelector("img"),
+		let thingImg = document.querySelector("img"),
+			thingTitle = document.querySelector("h2"),
 			thingSubTitle = document.querySelector("h3"),
 			thingDesc = document.querySelector("p");
 
-		thingImg.src = `images/${thingList[key].picture}`;
-		thingTitle.textContent = thingList[key].title;
-		thingSubTitle.textContent = thingList[key].subTitle;
-		thingDesc.textContent = thingList[key].description;
+
+			thingImg.src = `images/${thingList[key].picture}`;
+			thingTitle.textContent = thingList[key].title;
+			thingSubTitle.textContent = thingList[key].subTitle;
+			thingDesc.textContent = thingList[key].description;
 		
 	}
 
-	getData();
+	getData(buildData);
 	
 
 	btn.forEach(button => button.addEventListener("click", showData));

@@ -5,7 +5,7 @@ Introduces some of my favourites - have fun when reading them!
 Need a browser and a local server to open index.html.
 
 ## Usage
-download WAMP/MAMP/LAMP depend on your system, dowonload this project or `git clone` to your server directory, run localhost, open browser and go to localhost/favourite_things. Then you should see the web page.
+download WAMP/MAMP/LAMP depend on your system, dowonload this project or `git clone` to your server directory, run localhost, open browser and go to localhost/Kang-Yan_favourite_things. Then you should see the web page.
 
 ## Play with the Page
 Click on buttons on the left of the page, and see 3 different things with image and description.
